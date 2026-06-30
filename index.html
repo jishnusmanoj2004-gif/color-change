@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="flex item-center">
+
+        <button id="bg" class="w-100 h-100 bg-red-700 border-1 border-blue-900 hover-"><img src="toyota-supra-5k-2025-sr.jpg" alt="" width="800px" height="800px"></button>
+
+    </div>
+    <script type="text/javascript">
+        document.getElementById("bg").addEventListener("mouseover",function(){
+            this.style.backgroundColor="blue";
+        })
+
+        document.getElementById("bg").addEventListener("mouseout",function(){
+            this.style.backgroundColor="red";
+        })
+    </script>
+
+    <script src="./scripts.js"></script>
+</body>
+</html>
